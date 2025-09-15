@@ -32,7 +32,7 @@ If you miss the lab and work on this after, you can use this URL though.
 
 # TASK 1: Your first branch
 
-- [ ] Create and checkout a new branch called `task_1` using either IntelliJ or the Terminal:
+- [X] Create and checkout a new branch called `task_1` using either IntelliJ or the Terminal:
   - IntelliJ: `Git -> New branch...`
   - Terminal: `git checkout -b task_1`
   - After, you can check `git status` or the Log tab of the Git tool window in IntelliJ to see
@@ -40,17 +40,17 @@ If you miss the lab and work on this after, you can use this URL though.
 
 ---
 
-- [ ] Open the TODO tool window (`View -> Tool Windows -> TODO`) and click on the TASK 1 TODO listed.
+- [X] Open the TODO tool window (`View -> Tool Windows -> TODO`) and click on the TASK 1 TODO listed.
 
 ---
 
-- [ ] Complete the TASK 1 TODO and commit your changes to this file (checking off the
+- [X] Complete the TASK 1 TODO and commit your changes to this file (checking off the
 completed items so far) and `DataTypes.java` (remove the word TODO and your bug fix).
   - talk to your team or your TA, then see the hints at the bottom of the readme if you get stuck.
 
 ---
 
-- [ ] Now, we'll merge the `task_1` branch back into `main`. When merging,
+- [X] Now, we'll merge the `task_1` branch back into `main`. When merging,
 you need to be currently on the branch you are trying to merge into, so we'll first check out the main
 branch:
   - IntelliJ: `Git -> branches... -> main -> Checkout`
@@ -59,7 +59,7 @@ branch:
 
 ---
 
-- [ ] We are back on `main`, so we can now do the merge and complete our work!
+- [X] We are back on `main`, so we can now do the merge and complete our work!
   - IntelliJ: `Git -> Merge... -> task_1 -> Merge`
   - Terminal: `git merge task_1`
 
@@ -67,7 +67,7 @@ You should now see the changes that you made are now in the `main` branch.
 
 ---
 
-- [ ] Now, we'll want to clean up since we are done with our `task_1` branch.
+- [X] Now, we'll want to clean up since we are done with our `task_1` branch.
   - IntelliJ: `Git -> branches... -> task_1 -> Delete`
   - Terminal: `git branch -d task_1`
 
