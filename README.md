@@ -32,7 +32,7 @@ If you miss the lab and work on this after, you can use this URL though.
 
 # TASK 1: Your first branch
 
-- [ ] Create and checkout a new branch called `task_1` using either IntelliJ or the Terminal:
+- [X] Create and checkout a new branch called `task_1` using either IntelliJ or the Terminal:
   - IntelliJ: `Git -> New branch...`
   - Terminal: `git checkout -b task_1`
   - After, you can check `git status` or the Log tab of the Git tool window in IntelliJ to see
