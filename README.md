@@ -50,7 +50,7 @@ completed items so far) and `DataTypes.java` (remove the word TODO and your bug 
 
 ---
 
-- [ ] Now, we'll merge the `task_1` branch back into `main`. When merging,
+- [X] Now, we'll merge the `task_1` branch back into `main`. When merging,
 you need to be currently on the branch you are trying to merge into, so we'll first check out the main
 branch:
   - IntelliJ: `Git -> branches... -> main -> Checkout`
@@ -59,7 +59,7 @@ branch:
 
 ---
 
-- [ ] We are back on `main`, so we can now do the merge and complete our work!
+- [X] We are back on `main`, so we can now do the merge and complete our work!
   - IntelliJ: `Git -> Merge... -> task_1 -> Merge`
   - Terminal: `git merge task_1`
 
@@ -67,13 +67,13 @@ You should now see the changes that you made are now in the `main` branch.
 
 ---
 
-- [ ] Now, we'll want to clean up since we are done with our `task_1` branch.
+- [X] Now, we'll want to clean up since we are done with our `task_1` branch.
   - IntelliJ: `Git -> branches... -> task_1 -> Delete`
   - Terminal: `git branch -d task_1`
 
 ---
 
-- [ ] Last step! We'll push our changes to the remote repository to share our work! (As we did in Lab 1.)
+- [X] Last step! We'll push our changes to the remote repository to share our work! (As we did in Lab 1.)
   - we suggest you check off this last item, commit that change, and then push your code.
     Check GitHub to ensure you can see your changes.
 
@@ -97,9 +97,9 @@ on their own branch.
 
 You'll notice that your repository already has two branches called `alice` and `bob`.
 
-- [ ] Checkout the `alice` branch.
+- [X] Checkout the `alice` branch.
 
-- [ ] Attempt to merge the `bob` branch into the `alice` branch using either IntelliJ or the Terminal.
+- [X] Attempt to merge the `bob` branch into the `alice` branch using either IntelliJ or the Terminal.
   - You will be prompted to resolve a merge conflict. To do this, you will need to pick and choose which
   parts of each recipe to keep.
   - Read what either `git` or `IntelliJ` tells you in order to complete the merge process.
@@ -107,7 +107,7 @@ You'll notice that your repository already has two branches called `alice` and `
     merge conflict symbols which `git` has added to your file. Once done, you will need to `git add` the
     `recipe.md` file and `git commit` to finish the merge.
 
-- [ ] Once the merge is complete, delete the `bob` branch.
+- [X] Once the merge is complete, delete the `bob` branch.
 
 - [ ] Finally, checkout the `main` branch and merge the `alice` branch in (as we did previously).
 
