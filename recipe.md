@@ -6,7 +6,9 @@
 - 3/4 cup unsweetened cocoa powder
 - 1 cup chocolate chips
 - 1 tsp vanilla extract
-- ...
+- 3 eggs
+- 1 1/3 cups of milk
+- 1/2 cup vegetable oil
 
 ## Instructions:
 1. Preheat the oven to 350°F (175°C).
